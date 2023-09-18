@@ -7,7 +7,7 @@ function Contact() {
     <div className="contact">
       <div
         className="leftSide"
-
+        style={{ backgroundImage: `url(${PizzaLeft})` }}
       ></div>
       <div className="rightSide">
         
