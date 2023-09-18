@@ -5,7 +5,7 @@ import ReorderIcon from "@mui/icons-material/Reorder";
 import "../styles/Navbar.css";
 
 function Navbar() {
-  const [openLinks, setOpenLinks] = useState(false);
+  const [openLinks , setOpenLinks] = useState(false);
 
   const toggleNavbar = () => {
     setOpenLinks(!openLinks);
