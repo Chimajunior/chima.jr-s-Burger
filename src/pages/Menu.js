@@ -14,7 +14,7 @@ function Menu() {
             key={key}
               image={menuItem.image}
               name={menuItem.name}
-              content={menuItem.price}
+              price={menuItem.price}
             />
           );
         })}
