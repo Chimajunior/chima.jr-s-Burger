@@ -4,6 +4,7 @@ import ChimaSpecial from "../assets/chimaspecial.jpg";
 import Decker from "../assets/deckerBurg.jpg";
 import Pineapple from "../assets/pineapple.jpg";
 import Expensive from "../assets/expensive.jpg";
+import SpBurger from "../assets/special_burger.jpg";
 
 export const MenuList = [
   {
@@ -22,9 +23,9 @@ export const MenuList = [
     price: 8000,
   },
   {
-    name: "Pineapple Pizza",
-    image: Pineapple,
-    price: 6500,
+    name: "Special Burger",
+    image: SpBurger,
+    price: 10000,
   },
   {
     name: "Pineapple Pizza",
@@ -37,7 +38,7 @@ export const MenuList = [
     price: 15000,
   },
   {
-    name: "Very Expensive Pizza",
+    name: "Titan Pizza",
     image: Expensive,
     price: 20000,
   },
